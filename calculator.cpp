@@ -6,8 +6,10 @@ int main ()
 	char sign;
 	float a,b;
 
-	cout << "Enter the operator: +, -, *, / : \n";
+	cout << "What you want to do: \n";
+	cout << "+\n-\n*\n/\n";
 	cin >> sign;
+
 
 	cout << "Enter the two numbers: \n";
 	cin >> a;
@@ -16,23 +18,23 @@ int main ()
 	switch(sign)
 	{
 		case '+':
-		cout << a << " + " << b << " = " << a + b << endl;
+		cout << "Here's your answer:\n" << a << " + " << b << " = " << a + b << endl;
 		break;
 
 		case '-':
-		cout << a << " - " << b << " = " << a - b << endl;
+		cout << "Here's your answer:\n" << a << " - " << b << " = " << a - b << endl;
 		break;
 
 		case '*':
-		cout << a << " * " << b << " = " << a * b << endl;
+		cout << "Here's your answer:\n" << a << " * " << b << " = " << a * b << endl;
 		break;
 
 		case '/':
-		cout << a << " / " << b << " = " << a / b << endl;
+		cout << "Here's your answer:\n" << a << " / " << b << " = " << a / b << endl;
 		break;
 
 		default:
-		cout << "Error! You chose the wrong operator";
+		cout << "Error! You chose the wrong operator\n";
 		break;
 
 	}
