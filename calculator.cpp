@@ -6,10 +6,10 @@ int main ()
 	char sign;
 	float a,b;
 
-	cout << "What you want to do: \n";
+	cout << "Enter, what you want to do from the following: \n";
 	cout << "+\n-\n*\n/\n";
 	cin >> sign;
-
+	cout << "So, you want to do " << sign << endl;
 
 	cout << "Enter the two numbers: \n";
 	cin >> a;
